@@ -1,0 +1,159 @@
+.sections-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* HERO section */
+.hero {
+  background-color: var(--third-bg-color);
+}
+
+.hero.container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  margin: 0;
+
+  display: block;
+}
+
+.buttom {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+}
+
+/* FEATURES SECTION */
+
+.features.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+}
+
+.features-item {
+  margin-left: 30px;
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
+}
+
+.features-text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* WE DO SECTION */
+.do.container {
+  padding-bottom: 94px;
+}
+
+.do-list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+}
+
+.do-item {
+  margin-left: var(--card-set-gap);
+  flex-direction: calc(100% / 3 - var(--card-set-gap));
+}
+
+/* OUR TEAM SECTION */
+
+.team.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: 50px;
+}
+
+.team-item {
+  margin-left: var(--card-set-gap);
+  flex-basis: calc(100% / 4 - var(--card-set-gap));
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.team-text {
+  color: var(--secondary-text-color);
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
