@@ -10,21 +10,7 @@
 
 /* HERO section */
 .hero {
-  max-width: 1600px;
-  height: 600px;
-  margin: 0 auto;
   background-color: var(--third-bg-color);
-
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../img/elements/hero-bg.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .hero.container {
@@ -89,36 +75,6 @@
 .features-item {
   margin-left: 30px;
   flex-basis: calc(100% / 4 - var(--card-set-gap));
-}
-
-.features-item::before {
-  content: '';
-  display: block;
-
-  background-color: var(--secondary-bg-color);
-
-  margin-bottom: 30px;
-  height: 120px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-}
-
-.icon-antena::before {
-  background-image: url(../img/elements/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../img/elements/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../img/elements/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../img/elements/astronaut.svg);
 }
 
 .features-text {

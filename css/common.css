@@ -124,29 +124,9 @@ a {
 }
 
 /* Контакты в хедере */
-.contact-item {
-  display: inline-flex;
-}
 
 .contact-item:last-child {
   margin-left: 50px;
-}
-
-.contact-item::before {
-  content: '';
-  width: 16px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-right: 10px;
-}
-
-.icon-mail::before {
-  background-image: url(../img/elements/mail.svg);
-}
-
-.icon-cell::before {
-  background-image: url(../img/elements/cell.svg);
 }
 
 .contacts-link {
@@ -173,21 +153,10 @@ a {
 }
 
 .footer .container {
-  display: flex;
-}
-
-.adrress-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.social-container {
-  padding-top: 72px;
-  padding-bottom: 100px;
-  margin-left: 70px;
-}
-
-/* Контейнер с адрессом */
 .footer-logo {
   color: var(--white-color);
 
@@ -227,58 +196,4 @@ a {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
-}
-
-/* КОНТЕЙНЕР С СОЦ СЕТЯМИ */
-.social-title {
-  padding: 0;
-  margin: 0;
-
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.social-list {
-  margin-top: 20px;
-}
-
-.social-item {
-  display: inline-block;
-
-  width: 44px;
-  height: 44px;
-}
-
-.social-links {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 12px;
-}
-
-.social-links:hover {
-  background-color: var(--accent-color);
-}
-
-.icon-instagram {
-  background-image: url(../img/elements/instagram.svg);
-}
-
-.icon-twitter {
-  background-image: url(../img/elements/twitter.svg);
-}
-
-.icon-facebook {
-  background-image: url(../img/elements/facebook.svg);
-}
-
-.icon-linkedin {
-  background-image: url(../img/elements/linkedin.svg);
 }
