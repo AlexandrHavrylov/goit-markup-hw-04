@@ -165,17 +165,13 @@ a {
 
 .footer.container {
   display: flex;
-}
-
-.address-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  align-items: baseline;
 }
 
 .social-links {
   margin-left: 70px;
-  padding-top: 72px;
-  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -414,16 +410,18 @@ a {
 .team-item {
   margin-left: var(--card-set-gap);
   flex-basis: calc(100% / 4 - var(--card-set-gap));
+
   width: 270px;
   height: 428px;
+
+  background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 
 .team-title {
@@ -455,8 +453,6 @@ a {
 
   text-align: center;
   margin-top: 16px;
-  padding-right: 32px;
-  padding-left: 32px;
 }
 
 .teamate-network-link {
@@ -487,9 +483,18 @@ a {
 
 .clients-list {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   margin-top: 50px;
+}
+
+.clients-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.clients-item {
+  width: 170px;
+  height: 90px;
 }
 
 .clinets-link {
@@ -497,8 +502,8 @@ a {
   align-items: center;
   justify-content: center;
 
-  width: 170px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -577,8 +582,12 @@ button:active {
   margin-top: var(--card-set-gap);
 }
 
-.exampl-el:hover,
-.exampl-el:focus {
+.example-link {
+  display: block;
+}
+
+.example-link:hover,
+.example-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   outline: none;
@@ -613,8 +622,3 @@ button:active {
   padding: 0;
   margin-top: 4px;
 }
-
-/* .example-link {
-  border: 1px solid #eeeeee;
-  display: inline-block;
-} */
